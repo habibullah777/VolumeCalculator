@@ -15,7 +15,6 @@ public class Main
         while ((input = keyboard.nextInt()) != 0)
         {
             System.out.println();
-
             Volume vol = new Volume(input);
             vol.PrintVolumes();
 
